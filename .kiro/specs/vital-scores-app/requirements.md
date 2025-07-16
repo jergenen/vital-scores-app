@@ -12,11 +12,11 @@ Helsekalkulator is a cross-platform mobile and web application designed specific
 
 #### Acceptance Criteria
 
-1. WHEN the app is developed THEN it SHALL be deployable as a native Android app on Google Play Store
-2. WHEN the app is developed THEN it SHALL be deployable as a native iOS app on Apple App Store
-3. WHEN the app is developed THEN it SHALL be optimized for iPad with appropriate layout scaling
-4. WHEN the app is developed THEN it SHALL be accessible as a responsive web application
-5. WHEN the app runs on any platform THEN it SHALL maintain consistent functionality and user experience
+1. WHEN the app is developed THEN the system SHALL be deployable as a native Android app on Google Play Store
+2. WHEN the app is developed THEN the system SHALL be deployable as a native iOS app on Apple App Store
+3. WHEN the app is developed THEN the system SHALL be optimized for iPad with appropriate layout scaling
+4. WHEN the app is developed THEN the system SHALL be accessible as a responsive web application
+5. WHEN the app runs on any platform THEN the system SHALL maintain consistent functionality and user experience
 
 ### Requirement 2
 
@@ -24,11 +24,12 @@ Helsekalkulator is a cross-platform mobile and web application designed specific
 
 #### Acceptance Criteria
 
-1. WHEN I open the app THEN it SHALL display NEWS2 calculation fields on the main screen
+1. WHEN I open the app THEN the system SHALL display NEWS2 calculation fields on the main screen
 2. WHEN I input patient vital signs THEN the system SHALL automatically calculate the NEWS2 score in real-time
 3. WHEN the NEWS2 score is calculated THEN the system SHALL display the total score prominently
 4. WHEN the NEWS2 score is calculated THEN the system SHALL indicate the clinical risk level (low, medium, high)
 5. WHEN I need to understand NEWS2 scoring THEN the system SHALL provide access to detailed scoring explanations
+6. WHEN vital signs are entered THEN the system SHALL validate inputs are within physiologically reasonable ranges
 
 ### Requirement 3
 
