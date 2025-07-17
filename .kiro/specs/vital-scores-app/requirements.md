@@ -2,13 +2,13 @@
 
 ## Introduction
 
-Helsekalkulator is a cross-platform mobile and web application designed specifically for healthcare professionals to quickly and accurately calculate NEWS2 (National Early Warning Score 2) and q-SOFA (quick Sequential Organ Failure Assessment) scores. The app prioritizes ease of use, accessibility, and clinical workflow integration while supporting multiple platforms and languages.
+Vital-scores-app is a cross-platform mobile and web application designed specifically for healthcare professionals to quickly and accurately calculate NEWS2 (National Early Warning Score 2) and q-SOFA (quick Sequential Organ Failure Assessment) scores. The app prioritizes ease of use, accessibility, and clinical workflow integration while supporting multiple platforms and languages.
 
 ## Requirements
 
 ### Requirement 1
 
-**User Story:** As a healthcare professional, I want to access the Helsekalkulator app on any device (Android, iOS, iPad, web), so that I can calculate clinical scores regardless of my available technology.
+**User Story:** As a healthcare professional, I want to access the vital-scores-app on any device (Android, iOS, iPad, web), so that I can calculate clinical scores regardless of my available technology.
 
 #### Acceptance Criteria
 
