@@ -1,0 +1,38 @@
+{
+  "app": {
+    "title": "Vital Scores App",
+    "description": "Healthcare professional tool for calculating NEWS2 and q-SOFA scores"
+  },
+  "scores": {
+    "news2": "NEWS2",
+    "qsofa": "q-SOFA",
+    "notEnoughData": "Not enough data submitted",
+    "riskLevels": {
+      "low": "Low Risk",
+      "medium": "Medium Risk", 
+      "high": "High Risk"
+    }
+  },
+  "inputs": {
+    "respiratoryRate": "Respiratory Rate",
+    "heartRate": "Heart Rate",
+    "systolicBP": "Systolic BP",
+    "temperature": "Temperature",
+    "oxygenSaturation": "Oxygen Saturation",
+    "supplementalOxygen": "Supplemental Oxygen",
+    "consciousness": "Consciousness Level"
+  },
+  "actions": {
+    "reset": "Reset",
+    "export": "Export",
+    "settings": "Settings",
+    "education": "Education",
+    "cancel": "Cancel",
+    "confirm": "Confirm"
+  },
+  "common": {
+    "yes": "Yes",
+    "no": "No",
+    "areYouSure": "Are you sure?"
+  }
+}

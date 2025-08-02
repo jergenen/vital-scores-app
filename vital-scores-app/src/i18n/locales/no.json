@@ -1,0 +1,38 @@
+{
+  "app": {
+    "title": "Vital Scores App",
+    "description": "Verktøy for helsepersonell for beregning av NEWS2 og q-SOFA skår"
+  },
+  "scores": {
+    "news2": "NEWS2",
+    "qsofa": "q-SOFA",
+    "notEnoughData": "Ikke nok data innsendt",
+    "riskLevels": {
+      "low": "Lav risiko",
+      "medium": "Middels risiko",
+      "high": "Høy risiko"
+    }
+  },
+  "inputs": {
+    "respiratoryRate": "Respirasjonsfrekvens",
+    "heartRate": "Hjertefrekvens",
+    "systolicBP": "Systolisk BT",
+    "temperature": "Temperatur",
+    "oxygenSaturation": "Oksygenmetning",
+    "supplementalOxygen": "Tilleggsoksygen",
+    "consciousness": "Bevissthetsnivå"
+  },
+  "actions": {
+    "reset": "Tilbakestill",
+    "export": "Eksporter",
+    "settings": "Innstillinger",
+    "education": "Utdanning",
+    "cancel": "Avbryt",
+    "confirm": "Bekreft"
+  },
+  "common": {
+    "yes": "Ja",
+    "no": "Nei",
+    "areYouSure": "Er du sikker?"
+  }
+}

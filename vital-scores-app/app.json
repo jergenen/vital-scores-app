@@ -1,0 +1,74 @@
+{
+  "expo": {
+    "name": "Vital Scores App",
+    "slug": "vital-scores-app",
+    "version": "1.0.0-alpha",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "primaryColor": "#2196F3",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "locales": {
+      "no": "./locales/no.json",
+      "en": "./locales/en.json"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vitalscores.app",
+      "buildNumber": "1",
+      "requireFullScreen": false,
+      "supportedInterfaceOrientations": [
+        "portrait",
+        "landscape"
+      ]
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.vitalscores.app",
+      "versionCode": 1,
+      "permissions": [
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_EXTERNAL_STORAGE"
+      ],
+      "softwareKeyboardLayoutMode": "pan"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "name": "Vital Scores App",
+      "shortName": "VitalScores",
+      "description": "Healthcare professional tool for calculating NEWS2 and q-SOFA scores",
+      "themeColor": "#2196F3",
+      "backgroundColor": "#ffffff",
+      "display": "standalone",
+      "orientation": "any",
+      "startUrl": "/",
+      "lang": "no"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "vital-scores-app"
+      }
+    },
+    "plugins": [
+      "expo-localization"
+    ]
+  }
+}
